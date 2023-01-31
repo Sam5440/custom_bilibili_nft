@@ -160,6 +160,8 @@ def main():
         # img_url = upload_image(BG_PATH)
         # set_bg_img(img_url, card_id)
         set_face(card_id)
+    else:
+        print("你选择了结束程序")
 
 
 if __name__ == '__main__':
